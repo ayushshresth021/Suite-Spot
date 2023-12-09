@@ -1,7 +1,7 @@
 
 
 # You can run the application on your browser by clicking on this link
-Deployed website: https://brave-grass-0e83bdf1e.4.azurestaticapps.net/search
+Deployed website: https://likehome-hotel.pages.dev/search
 
 
 

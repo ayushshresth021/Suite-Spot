@@ -1,0 +1,176 @@
+body h1 {
+    margin: 5px;
+    color: #8ea8c2
+}
+
+body p {
+    color: #fff;
+    margin-top: 0px
+}
+
+.reservation-card {
+    height: 600px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border: 2px solid #555;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #777;
+}
+
+.reservation-card h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.reservation-image {
+    height: 600px;
+    width: 800px;
+    border-radius: 9px 0 0 9px;
+}
+
+.info-card {
+    height:600px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dates-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid #555;
+    padding: 10px 15px 10px 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px #777;
+}
+
+
+.dates-box > div{
+    margin: 0px 20px;
+}
+
+
+.dates-box p {
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+    font-weight: 500;
+    color: #dddddd;
+}
+
+.descriptor-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.button-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.res-btn {
+    outline: none;
+    width: 100px;
+    color: #8ea8c2;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid #8ea8c2;
+    background: transparent;
+    box-shadow: 0px 0px 4px #777;
+    padding: 4px 0px 4px 0px !important;
+}
+
+.res-btn:hover{
+    background-color: #14213d;
+    color: white;
+}
+
+.room-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid #555;
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px #777;
+    margin-bottom: 24px;
+    color:#8ea8c2
+}
+
+.room-details > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 12px;
+    color: white
+}
+
+.room-details > div > h2 {
+    margin-left: 5px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 8px; /* Round the edges */
+    box-shadow: 0 0 10px #fff; /* Adding box shadow */
+    padding: 20px;
+    z-index: 9999;
+    /* Add more styles according to your design */
+  }
+  
+  .modal.show {
+    background-color: black;
+    display: block;
+  }
+
+  .selector-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5px;
+  }
+  
+  .form-item {
+    padding: 0px 12px;
+  }
+
+  .form-item h3 {
+    margin: 0px 6px;
+  }
+
+  .modal h1 {
+    margin: 4px 0px 18px 0px;
+  }
+
+  .modal-content p {
+    margin-bottom: 10px
+  }
+
+  .adjustment h2 {
+    margin: 18px 0px 0px 0px
+  }
+
+  .adjustment {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline
+  }

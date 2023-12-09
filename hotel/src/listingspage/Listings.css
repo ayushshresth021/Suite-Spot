@@ -1,0 +1,170 @@
+.listings {
+    padding: 20px;
+}
+
+
+h2 {
+    padding-top: 12px;
+    color: #14213D;
+    text-align: center;
+}
+
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    padding-right: 23px;
+}
+
+.my-datepicker {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 36px;
+    width: 165px;
+    padding-left: 10px;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid #14213D;
+    margin: 0 15px 0 0;
+    background: white;
+    color: #333333
+}
+
+.my-datepicker p {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    color: #333
+}
+
+.search-text-field {
+    border: 1px solid #14213D;
+    margin: 0 5px 0 0;
+    border-radius: 10px;
+    width: 400px;
+    height: 36px;
+    padding: 0 32px;
+    font-size: 16px;
+    color: #333333
+}
+
+.search-icon {
+    margin: 0 !important;
+    top: 50% !important;
+    /* Vertically center the icon */
+    left: 10px !important;
+    /* Adjust the value to position the icon */
+    transform: translatex(-2475%) translatey(10%) !important;
+    z-index: 10 !important;
+    color: #333333
+}
+
+.search-button {
+    border-radius: 10px;
+    height: 36px;
+    width: fit-content;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 4px 8px;
+    background-image: linear-gradient(to right, #4D7093, #87A3C0); /* Main color */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5 ); /* Subtle shadow effect */
+}
+
+.listing-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.filterbox {
+    
+    width: 300px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #444444, #666666); /* Main color */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5 ); /* Subtle shadow effect */
+}
+
+.filterbox button {
+    color: black;
+    font-weight: 400px;
+}
+
+.find-body {
+    display: flex;
+    flex-direction: row;
+    margin-left: 125px;
+    justify-content: left;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+}
+
+
+
+.filter-button {
+    border-radius: 10px;
+    height: 36px;
+    width: fit-content;
+    color: #F9F8F8;
+    background-color: #14213E;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 4px 8px;
+}
+
+.side-menu {
+    width: 250px;
+    height: 50%;
+    background-color: #c2c9ea;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 100;
+    left: -250px;
+    transition: left 0.3s;
+}
+
+.side-menu.open {
+    left: 0;
+}
+
+label {
+    display: block;
+    margin: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+input[type="range"] {
+    width: 100%;
+}
+input[type=checkbox] {
+    width:20px; height:20px;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #8EA8C3, #2C4C63); /* Main color */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5 ); /* Subtle shadow effect */
+}
+label {
+    color: white
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
